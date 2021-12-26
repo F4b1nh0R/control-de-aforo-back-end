@@ -170,10 +170,7 @@ app.post('/login', async (req, res) => {
     {   console.log("Error en la función (app.post('/login', ...)) módulo: ", err);
     }
  })
-
-
  
-
 app.post('/registro', async (req, res) => {
 
     console.log("Recieving ('/registro') request: ", req.body);
@@ -294,7 +291,6 @@ app.post('/moda',async(req, res)=>{
     }
     res.send({message:'Aforo Modificado'});
 })
-
 
 app.post('/modr', async(req, res) =>{
 
